@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kompass", "source/Kompass.csproj", "{AD1251F6-082E-49B0-8BDD-AED5EA439347}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kompass", "Kompass.csproj", "{AD1251F6-082E-49B0-8BDD-AED5EA439347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
