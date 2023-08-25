@@ -64,6 +64,15 @@ class GltfBuilder:
         self.texture = gltf.Texture()
     
 
+    def create_node(self: Self, name: str, translation: Vector3 = Vector3()) -> Self:
+        self.nodes.append(gltf.Node(
+            name=name,
+            translation=astuple(translation)
+        ))
+
+        return self
+    
+
     def create_mesh(self: Self, name: str, translation: Vector3 = Vector3()) -> Self:
         self.nodes.append(gltf.Node(
             name=name,

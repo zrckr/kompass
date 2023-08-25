@@ -96,9 +96,9 @@ def divide_to_chunks(lst: list, size: int):
         yield lst[i:i+size]
 
 
-def read_geometry_from_xml(geometry: Geometry, xml: object) -> None:
+def read_geometry_from_xml(geometry: Geometry, xml: object) -> bool:
     if not hasattr(xml.Vertices, 'VertexPositionNormalTextureInstance'):
-        return
+        return False
 
     vertices = xml.Vertices.VertexPositionNormalTextureInstance
     for vertex in vertices:
@@ -118,3 +118,5 @@ def read_geometry_from_xml(geometry: Geometry, xml: object) -> None:
     for idx in indices:
         face = Face.parse(idx)
         geometry.index.append(face)
+    
+    return True
