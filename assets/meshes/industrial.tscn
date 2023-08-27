@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bx0h1nrhcrfqk"]
+
+[ext_resource type="PackedScene" uid="uid://dvi05crdqo6xr" path="res://assets/meshes/industrial.gltf" id="1_l5w14"]
+
+[node name="Industrial" instance=ExtResource("1_l5w14")]
