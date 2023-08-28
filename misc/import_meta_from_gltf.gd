@@ -44,4 +44,4 @@ func _run():
 	
 	var packed_scene = PackedScene.new()
 	packed_scene.pack(scene)
-	ResourceSaver.save(packed_scene, 'res://out.tscn')
+	ResourceSaver.save(packed_scene, imported)
