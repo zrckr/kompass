@@ -3,3 +3,4 @@ numpy==1.25.2
 pygltflib==1.16.0
 wordninja==2.0.0
 xmltodict==0.13.0
+Mako==1.2.4

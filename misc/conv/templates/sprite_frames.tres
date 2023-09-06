@@ -1,0 +1,31 @@
+[gd_resource type="SpriteFrames" load_steps=${steps} format=2]
+
+% for id, (folder, name) in enumerate(exts, 1):
+[ext_resource path="res://assets/sprites/${folder}/${name}.png" type="Texture" id=${id}]
+% endfor
+
+% for id, atlas in enumerate(atlases, 1):
+[sub_resource type="AtlasTexture" id=${id}]
+flags = 16
+atlas = ExtResource( ${atlas.atlas} )
+region = ${atlas.region}
+
+% endfor
+<%
+    sub = lambda x: f'SubResource( {x} )'
+    for sprite in sprites:
+        sprite.frames = ', '.join(map(sub, sprite.frames))
+%>
+[resource]
+animations = [ {
+% for id, sprite in enumerate(sprites, 1):
+    "frames": [ ${sprite.frames} ],
+    "loop": ${sprite.loop}
+    "name": ${sprite.name}
+    "speed": ${sprite.speed}
+    % if (id != len(sprites)):
+    }, {
+    % else:
+    } ]
+    % endif
+% endfor

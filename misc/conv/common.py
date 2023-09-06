@@ -1,4 +1,5 @@
 import json
+import wordninja
 import xmltodict
 
 from dataclasses import dataclass, field
@@ -63,6 +64,22 @@ class Face:
 
 
 @dataclass
+class Rect2:
+    x: int = 0
+    y: int = 0
+    w: int = 0
+    h: int = 0
+
+    def parse(element: object):
+        return Rect2(
+            int(getattr(element, '@x')),
+            int(getattr(element, '@y')),
+            int(getattr(element, '@w')),
+            int(getattr(element, '@h')),
+        )
+
+
+@dataclass
 class Geometry:
     name: str = ''
     vertex: list[Vector3] = field(default_factory=list)
@@ -120,3 +137,7 @@ def read_geometry_from_xml(geometry: Geometry, xml: object) -> bool:
         geometry.index.append(face)
     
     return True
+
+def to_snake_case_and_correct(string: str, corrections: dict[str, str]) -> str:
+    string = '_'.join(wordninja.split(string)).lower()
+    return corrections[string] if string in corrections else string
