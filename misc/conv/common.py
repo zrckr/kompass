@@ -26,7 +26,7 @@ class Vector3:
         )
 
     def __str__(self: Self) -> str:
-        return f'Vector3( {self.x}, {self.y}, {self.z} )'
+        return f'Vector3({self.x}, {self.y}, {self.z})'
 
 
 @dataclass
@@ -40,6 +40,9 @@ class Vector2:
             float(getattr(element, '@x')),
             float(getattr(element, '@y')),
         )
+
+    def __str__(self: Self) -> str:
+        return f'Vector2({self.x}, {self.y})'
 
 
 @dataclass
@@ -89,6 +92,9 @@ class Rect2:
             int(getattr(element, '@w')),
             int(getattr(element, '@h')),
         )
+
+    def __str__(self: Self) -> str:
+        return f'Rect2i({self.x}, {self.y}, {self.w}, {self.h})'
 
 
 @dataclass
@@ -151,6 +157,7 @@ def read_geometry_from_xml(geometry: Geometry, xml: SimpleNamespace) -> bool:
         geometry.index.append(face)
     
     return True
+
 
 def to_snake_case(string: str) -> str:
     global WORDSEGMENT_LOADED

@@ -88,9 +88,9 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
             
             rect = Rect2(
                 x = 0,
-                y = offset_y,
-                w = target.size.x,
-                h = target.size.y
+                y = int(offset_y),
+                w = int(target.size.x),
+                h = int(target.size.y)
             )
 
             target.frames.append(rect)

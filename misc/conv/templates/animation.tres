@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/sprites/${folder}/${name}.png" type="Texture" id=${id}]
 
 [resource]
-resource_name = ${name}
+resource_name = "${name}"
 length = ${length}
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:region_rect")
