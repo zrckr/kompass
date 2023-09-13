@@ -92,7 +92,7 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
     return anim_texture
 
 
-def convert_anim_to_sprite_frames(anim_texture: AnimatedTexturePC, path: Path) -> str:
+def convert_anim_to_sprite_frames(anim_texture: AnimatedTexturePC, path: Path, speed: int) -> str:
     atlases: list[AtlasTexture] = []
     sprites: list[SpriteFrames] = []
 
@@ -109,7 +109,7 @@ def convert_anim_to_sprite_frames(anim_texture: AnimatedTexturePC, path: Path) -
         loop=True,
         name=path.stem,
         folder=path.parent.stem,
-        speed=7.0
+        speed=speed
     ))
 
     steps = len(atlases) + len(sprites) + 1
@@ -171,7 +171,9 @@ def save_to_tres_file(tres_text: str, tres_path) -> None:
 @click.command()
 @click.argument('xml')
 @click.option('--output', '-o', type=click.Choice(['sprite-frames', 'animations']), required=True)
-def main(xml: str, output: str):
+@click.option('--fps', '-s', default=7)
+@click.option('--rename-texture', '-rt', 'rename_texture', is_flag=True)
+def main(xml: str, output: str, fps: int, rename_texture: bool):
     xml_path = Path(xml).resolve()
     texture_path = xml_path.with_suffix('.ani.png')
 
@@ -187,12 +189,13 @@ def main(xml: str, output: str):
 
     match output:
         case 'sprite-frames':
-            tres_text = convert_anim_to_sprite_frames(anim_data, tres_path)
+            tres_text = convert_anim_to_sprite_frames(anim_data, tres_path, fps)
         case 'animations':
             tres_text = convert_anim_to_animations(anim_data, tres_path)
     
     save_to_tres_file(tres_text, tres_path)
-    rename_anim_texture(texture_path, converted_name)
+    if rename_texture:
+        rename_anim_texture(texture_path, converted_name)
 
 
 if __name__ == '__main__':
