@@ -28,6 +28,9 @@ class TrileSet:
 
 def parse_trile_from_xml(xml: dict) -> TrileSet:
     trileset = TrileSet(getattr(xml.TrileSet, '@name'))
+
+    if type(xml.TrileSet.Triles.TrileEntry) is not list:
+        xml.TrileSet.Triles.TrileEntry = [xml.TrileSet.Triles.TrileEntry]
     
     for index, entry in enumerate(xml.TrileSet.Triles.TrileEntry):
         trile = Trile()

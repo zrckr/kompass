@@ -65,6 +65,9 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
     def parse_xbox(xml, target):
         offset_y = 0
         
+        if type(xml.Frames.Frame) is not list:
+            xml.Frames.Frame = [xml.Frames.Frame]
+
         for frame in xml.Frames.Frame:
             duration = int(getattr(frame, '@duration'))
             target.durations.append(duration)

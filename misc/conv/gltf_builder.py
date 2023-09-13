@@ -15,6 +15,9 @@ def _as_bytes(lst: list, type: str, flat: bool = False) -> bytes:
 
 
 def _find_min_max(lst: list, type: str) -> list[float]:
+    if not lst:
+        return [0.0, 0.0]
+
     mapped = list(map(astuple, lst))
     array = np.array(mapped, dtype=type)
     return [
