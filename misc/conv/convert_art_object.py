@@ -23,9 +23,9 @@ def parse_art_object_from_xml(xml: dict) -> ArtObject:
     return art_object
 
 
-def convert_art_object_to_gltf(art_object: ArtObject, embed_texture: bool) -> GltfBuilder:
+def convert_art_object_to_gltf(art_object: ArtObject, texture_path: Path, embed_texture: bool) -> GltfBuilder:
     return GltfBuilder(art_object.name) \
-        .set_image(art_object.name.lower(), embed_texture) \
+        .set_image(texture_path.stem, embed_texture) \
         .set_material(art_object.name) \
         .create_mesh(art_object.name, Vector3()) \
         .set_vertices(art_object.vertex) \
@@ -65,7 +65,7 @@ def main(xml: str, texture: str, embedded: bool):
     
     logging.info('converting to %s', gltf_path.name)
 
-    gltf = convert_art_object_to_gltf(trileset, embedded)
+    gltf = convert_art_object_to_gltf(trileset, texture_path, embedded)
     save_to_gltf_file(gltf, texture_path, gltf_path)
 
 
