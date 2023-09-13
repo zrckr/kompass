@@ -1,5 +1,5 @@
 import json
-import wordninja
+import wordsegment
 import xmltodict
 
 from dataclasses import dataclass, field
@@ -13,6 +13,7 @@ class Vector3:
     y: float = 0.0
     z: float = 0.0
 
+    @staticmethod
     def parse(element):
         return Vector3(
             float(getattr(element, '@x')),
@@ -26,6 +27,7 @@ class Vector2:
     x: float = 0.0
     y: float = 0.0
 
+    @staticmethod
     def parse(element: object):
         return Vector2(
             float(getattr(element, '@x')),
@@ -40,8 +42,9 @@ class Quaternion:
     z: float = 0.0
     w: float = 0.0
 
+    @staticmethod
     def parse(element: object):
-        return Vector3(
+        return Quaternion(
             float(getattr(element, '@x')),
             float(getattr(element, '@y')),
             float(getattr(element, '@z')),
@@ -55,7 +58,8 @@ class Face:
     b: int = 0
     c: int = 0
 
-    def parse(chunk):
+    @staticmethod
+    def parse(chunk: list[str]):
         return Face(
             a=int(chunk[0]),
             b=int(chunk[1]),
@@ -70,6 +74,7 @@ class Rect2:
     w: int = 0
     h: int = 0
 
+    @staticmethod
     def parse(element: object):
         return Rect2(
             int(getattr(element, '@x')),
@@ -97,6 +102,8 @@ NORMALS = [
     Vector3(0, 0, 1)
 ]
 
+WORDSEGMENT_LOADED = False
+
 
 def read_xml_file(path: Path) -> SimpleNamespace:
     with open(path, 'rt') as file:
@@ -113,7 +120,7 @@ def divide_to_chunks(lst: list, size: int):
         yield lst[i:i+size]
 
 
-def read_geometry_from_xml(geometry: Geometry, xml: object) -> bool:
+def read_geometry_from_xml(geometry: Geometry, xml: SimpleNamespace) -> bool:
     if not hasattr(xml.Vertices, 'VertexPositionNormalTextureInstance'):
         return False
 
@@ -138,6 +145,13 @@ def read_geometry_from_xml(geometry: Geometry, xml: object) -> bool:
     
     return True
 
-def to_snake_case_and_correct(string: str, corrections: dict[str, str]) -> str:
-    string = '_'.join(wordninja.split(string)).lower()
-    return corrections[string] if string in corrections else string
+def to_snake_case(string: str) -> str:
+    global WORDSEGMENT_LOADED
+    if not WORDSEGMENT_LOADED:
+        wordsegment.load()
+        WORDSEGMENT_LOADED = True
+
+    splitted_string = wordsegment.segment(string)
+    snake_string = '_'.join(splitted_string).lower()
+
+    return snake_string

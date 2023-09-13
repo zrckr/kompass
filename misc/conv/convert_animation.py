@@ -4,8 +4,9 @@ import logging
 import mako.template
 
 from pathlib import Path
-from common import Rect2, Vector2, read_xml_file, to_snake_case_and_correct
+from common import Rect2, Vector2, read_xml_file, to_snake_case
 from dataclasses import asdict, dataclass, field
+from types import SimpleNamespace
 
 
 @dataclass
@@ -43,17 +44,7 @@ class SpriteFrames:
     speed: float = 0.0
 
 
-CORRECTIONS = {
-    "drum_shih_at": "drums_hihat",
-    "push_s_pinfall": "push_spin_fall",
-    "dropt_rile": "drop_trile",
-    "drop_heavy_tri_le": "drop_heavy_trile",
-    "lookup": "look_up",
-    "ledge_pull_upfront": "ledge_pull_up_front",
-}
-
-
-def parse_anim_from_xml(xml: dict) -> AnimatedTexturePC:
+def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
     def parse_sizes(xml, target):
         target.size = Vector2(
             float(getattr(xml, '@width')),
@@ -189,7 +180,7 @@ def main(xml: str, output: str):
     raw = read_xml_file(xml_path)
     anim_data = parse_anim_from_xml(raw)
 
-    converted_name = to_snake_case_and_correct(xml_path.stem, CORRECTIONS)
+    converted_name = to_snake_case(xml_path.stem)
     tres_path = Path(xml_path.parent, converted_name).with_suffix('.tres')
 
     logging.info('converting to %s', tres_path.name)
