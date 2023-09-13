@@ -4,6 +4,7 @@ from pathlib import Path
 from convert_animation import main as convert_animation
 from convert_art_object import main as convert_art_object
 from convert_trileset import main as convert_trileset
+from convert_text import main as convert_text
 
 
 OVERRIDE_CONVERTED = True
@@ -27,7 +28,7 @@ def process_art_objects(root: Path):
         if 'ao_b.xml' in path:
             path = path.replace('ao_b.xml', '_bao.xml')
 
-        # replace 'ao.xml' suffix with '.png'
+        # replaces 'ao.xml' suffix with '.png'
         texture = Path(path[:-6]).with_suffix('.png')
         
         convert_art_object.callback(
@@ -90,6 +91,14 @@ def process_animated_background_planes(root: Path):
         )
 
 
+def process_resources(root: Path):
+    resources = root / Path('resources')
+    for resource in resources.glob('*.xml'):
+        if not is_converted(resource, '.po'):
+            print(f'[RESOURCE] {resource.name}')
+            convert_text.callback(xml=resource)
+
+
 @click.command()
 @click.argument('assets')
 def main(assets: str):
@@ -100,6 +109,7 @@ def main(assets: str):
     process_trilesets(root)
     process_character_animations(root)
     process_animated_background_planes(root)
+    process_resources(root)
 
 
 if __name__ == '__main__':
