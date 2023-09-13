@@ -1,5 +1,6 @@
 import click
 import logging
+import mako.template
 
 from common import Geometry, Vector2, Vector3, read_geometry_from_xml, read_xml_file
 from dataclasses import dataclass, field, astuple
@@ -112,14 +113,30 @@ def save_to_gltf_file(builder: GltfBuilder, texture_path: Path, save_path: Path,
         .build(texture_path.parent, save_path)
 
 
+def generate_mesh_library_tscn(trileset: TrileSet, path: Path) -> None:
+    template = mako.template.Template(filename='templates/mesh_library.tscn')
+    text = template.render(
+        folder='meshes',
+        name=path.stem,
+        steps=len(trileset.triles) + 2,
+        triles=trileset.triles,
+        scene_name=trileset.name
+    )
+
+    with open(path, 'wt', encoding='utf-8') as tscn:
+        tscn.write(text)
+
+
 @click.command()
 @click.argument('xml')
 @click.argument('texture')
 @click.option('--embedded', '-e', is_flag=True, help='Embedd *.png image to GLTF file')
-def main(xml: str, texture: str, embedded: bool):
+@click.option('--generate-tscn', '-g', 'generate_tscn', is_flag=True, help='Generates mesh library TSCN')
+def main(xml: str, texture: str, embedded: bool, generate_tscn: bool):
     xml_path = Path(xml).resolve()
     texture_path = Path(texture).resolve()
     gltf_path = Path(xml_path).with_suffix('.gltf')
+    tscn_path = Path(xml_path).with_suffix('.tscn')
 
     logging.info('parsing the %s', xml_path.name)
 
@@ -130,6 +147,10 @@ def main(xml: str, texture: str, embedded: bool):
 
     gltf = convert_trileset_to_gltf(trileset, embedded)
     save_to_gltf_file(gltf, texture_path, gltf_path, trileset.meta)
+
+    if generate_tscn:
+        logging.info('generate mesh library scene as %s', tscn_path.name)
+        generate_mesh_library_tscn(trileset, tscn_path)
 
 
 if __name__ == '__main__':

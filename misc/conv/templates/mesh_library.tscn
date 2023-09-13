@@ -1,0 +1,26 @@
+[gd_scene load_steps=${steps} format=2]
+
+[ext_resource type="PackedScene" path="res://assets/${folder}/${name}.gltf" id=1]
+<%
+def is_unit_size(size):
+    return size.x != 1.0 and size.y != 1.0 and size.z != 1.0
+
+def as_vector3(vector3):
+    return f'Vector3( {vector3.x}, {vector3.y}, {vector3.z} )'
+%>
+% for id, trile in enumerate(triles, 2):
+[sub_resource type="BoxShape3D" id=${id}]
+% if is_unit_size(trile.size):
+size = ${as_vector3(trile.size)}
+% endif
+
+% endfor
+[node name="${scene_name}" instance=ExtResource( 1 )]
+
+% for id, trile in enumerate(triles, 2):
+[node name="StaticBody3D" type="StaticBody3D" parent="${trile.name}"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="${trile.name}/StaticBody3D"]
+shape = SubResource( ${id} )
+
+% endfor
