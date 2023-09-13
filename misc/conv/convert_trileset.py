@@ -2,7 +2,7 @@ import click
 import logging
 import mako.template
 
-from common import Geometry, Vector2, Vector3, read_geometry_from_xml, read_xml_file
+from common import Geometry, Vector2, Vector3, read_geometry_from_xml, read_xml_file, generate_scene_unique_id
 from dataclasses import dataclass, field, astuple
 from gltf_builder import GltfBuilder
 from pathlib import Path
@@ -18,6 +18,7 @@ class Trile(Geometry):
     actor: dict[str, str] = field(default_factory=dict)
     surface: str = ''
     immaterial: bool = False
+    rid: str = ''
 
 
 @dataclass
@@ -114,13 +115,17 @@ def save_to_gltf_file(builder: GltfBuilder, texture_path: Path, save_path: Path,
 
 
 def generate_mesh_library_tscn(trileset: TrileSet, path: Path) -> None:
+    for trile in trileset.triles:
+        trile.rid = generate_scene_unique_id('BoxShape3D')
+    
     template = mako.template.Template(filename='templates/mesh_library.tscn')
     text = template.render(
-        folder='meshes',
-        name=path.stem,
-        steps=len(trileset.triles) + 2,
-        triles=trileset.triles,
-        scene_name=trileset.name
+        folder = 'meshes',
+        name = path.stem,
+        steps = len(trileset.triles) + 2,
+        triles = trileset.triles,
+        scene_name = trileset.name,
+        id = generate_scene_unique_id(1)
     )
 
     with open(path, 'wt', encoding='utf-8') as tscn:

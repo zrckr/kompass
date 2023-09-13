@@ -4,7 +4,7 @@ import logging
 import mako.template
 
 from pathlib import Path
-from common import Rect2, Vector2, read_xml_file, to_snake_case
+from common import Rect2, Vector2, read_xml_file, to_snake_case, generate_scene_unique_id
 from dataclasses import asdict, dataclass, field
 from types import SimpleNamespace
 
@@ -15,10 +15,12 @@ class AnimatedTexturePC:
     actualSize: Vector2 = field(default_factory=Vector2)
     durations: list[float] = field(default_factory=list)
     frames: list[Rect2] = field(default_factory=list)
+    speed: float = 0.0
 
 
 @dataclass
 class AnimationResource:
+    id: str = ''
     name: str = ''
     folder: str = ''
     length: float = 0.0
@@ -29,19 +31,31 @@ class AnimationResource:
 
 
 @dataclass
+class TextureResource:
+    id: str = ''
+    name: str = ''
+    folder: str = ''
+
+
+@dataclass
 class AtlasTexture:
-    id: int = 0
-    atlas: int = 0
+    id: str = ''
+    texture: str = ''
     region: Rect2 = field(default_factory=Rect2)
 
 
 @dataclass
-class SpriteFrames:
-    frames: list[int] = field(default_factory=list)
+class SpriteFrame:
+    duration: float = 0.0
+    texture: str = ''
+
+
+@dataclass
+class SpriteFramesAnimation:
+    frames: list[SpriteFrame] = field(default_factory=list)
     loop: bool = False
-    name: str = ''
-    folder: str = ''
     speed: float = 0.0
+    name: str = ''
 
 
 def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
@@ -95,35 +109,47 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
     return anim_texture
 
 
-def convert_anim_to_sprite_frames(anim_texture: AnimatedTexturePC, path: Path, speed: int) -> str:
+def convert_anim_to_sprite_frames(anim_textures: list[tuple[Path, AnimatedTexturePC]]) -> str:
+    textures: list[TextureResource] = []
     atlases: list[AtlasTexture] = []
-    sprites: list[SpriteFrames] = []
+    animations: list[SpriteFramesAnimation] = []
 
-    sub_resources = len(atlases) + 1
-    
-    for frame in anim_texture.frames:
-        atlases.append(AtlasTexture(
-            region=frame,
-            atlas=len(atlases) + 1
+    for i, (path, anim_texture) in enumerate(anim_textures, 1):
+        textures.append(TextureResource(
+            id = generate_scene_unique_id(i),
+            name = path.stem,
+            folder = path.parent.stem,
         ))
 
-    sprites.append(SpriteFrames(
-        frames=list(range(sub_resources, len(atlases))),
-        loop=True,
-        name=path.stem,
-        folder=path.parent.stem,
-        speed=speed
-    ))
+        sprites: list[SpriteFrame] = []
 
-    steps = len(atlases) + len(sprites) + 1
-    exts = [(sprite.folder, sprite.name) for sprite in sprites]
+        for frame, duration in zip(anim_texture.frames, anim_texture.durations):
+            atlases.append(AtlasTexture(
+                id = generate_scene_unique_id('AtlasTexture'),
+                texture = textures[-1].id,
+                region = frame,
+            ))
+
+            sprites.append(SpriteFrame(
+                duration = 1.0,
+                texture = atlases[-1].id,
+            ))
+        
+        animations.append(SpriteFramesAnimation(
+            frames = sprites,
+            loop = True,
+            speed = anim_texture.speed,
+            name = path.stem
+        ))
+
+    steps = len(atlases) + len(textures) + 1
 
     template = mako.template.Template(filename='templates/sprite_frames.tres')
     text = template.render(
-        steps=steps,
-        exts=exts,
-        atlases=atlases,
-        sprites=sprites
+        steps = steps,
+        textures = textures,
+        atlases = atlases,
+        animations = animations
     )
 
     return text
@@ -136,6 +162,7 @@ def convert_anim_to_animations(anim_texture: AnimatedTexturePC, path: Path) -> s
     resource = AnimationResource()
     resource.name = path.stem
     resource.folder = path.parent.stem
+    resource.id = generate_scene_unique_id(1)
 
     resource.values += anim_texture.frames
     for duration in anim_texture.durations:
@@ -174,9 +201,9 @@ def save_to_tres_file(tres_text: str, tres_path) -> None:
 @click.command()
 @click.argument('xml')
 @click.option('--output', '-o', type=click.Choice(['sprite-frames', 'animations']), required=True)
-@click.option('--fps', '-s', default=7)
+@click.option('--fps', '-s', default=7.0)
 @click.option('--rename-texture', '-rt', 'rename_texture', is_flag=True)
-def main(xml: str, output: str, fps: int, rename_texture: bool):
+def main(xml: str, output: str, fps: float, rename_texture: bool):
     xml_path = Path(xml).resolve()
     texture_path = xml_path.with_suffix('.ani.png')
 
@@ -184,6 +211,7 @@ def main(xml: str, output: str, fps: int, rename_texture: bool):
 
     raw = read_xml_file(xml_path)
     anim_data = parse_anim_from_xml(raw)
+    anim_data.speed = fps
 
     converted_name = to_snake_case(xml_path.stem)
     tres_path = Path(xml_path.parent, converted_name).with_suffix('.tres')
@@ -192,7 +220,7 @@ def main(xml: str, output: str, fps: int, rename_texture: bool):
 
     match output:
         case 'sprite-frames':
-            tres_text = convert_anim_to_sprite_frames(anim_data, tres_path, fps)
+            tres_text = convert_anim_to_sprite_frames( [(tres_path, anim_data)] )
         case 'animations':
             tres_text = convert_anim_to_animations(anim_data, tres_path)
     

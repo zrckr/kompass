@@ -1,10 +1,14 @@
 import json
+import mmh3
+import time
+import random
 import wordsegment
 import xmltodict
 
 from dataclasses import dataclass, field
 from pathlib import Path
 from types import SimpleNamespace
+from typing import Self
 
 
 @dataclass
@@ -20,6 +24,9 @@ class Vector3:
             float(getattr(element, '@y')),
             float(getattr(element, '@z')),
         )
+
+    def __str__(self: Self) -> str:
+        return f'Vector3( {self.x}, {self.y}, {self.z} )'
 
 
 @dataclass
@@ -155,3 +162,27 @@ def to_snake_case(string: str) -> str:
     snake_string = '_'.join(splitted_string).lower()
 
     return snake_string
+
+
+def generate_scene_unique_id(prefix: int | str) -> str:
+    timestamp = int(time.time()).to_bytes(4)
+    hash = mmh3.hash(signed=False, key=timestamp)
+    
+    for _ in range(7):
+        number = random.getrandbits(32).to_bytes(4)
+        hash = mmh3.hash(signed=False, seed=hash, key=number)
+
+    characters = 5
+    char_count = ord('z') - ord('a')
+    base = char_count + (ord('9') - ord('0'))
+
+    id = ''
+    for _ in range(characters):
+        c = hash % base
+        if c < char_count:
+            id += chr(ord('a') + c)
+        else:
+            id += chr(ord('0') + (c - char_count))
+        hash //= base
+
+    return f'"{prefix}_{id}"'

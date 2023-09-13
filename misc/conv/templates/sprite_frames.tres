@@ -1,31 +1,34 @@
-[gd_resource type="SpriteFrames" load_steps=${steps} format=2]
+[gd_resource type="SpriteFrames" load_steps=${steps} format=3]
 
-% for id, (folder, name) in enumerate(exts, 1):
-[ext_resource path="res://assets/sprites/${folder}/${name}.png" type="Texture" id=${id}]
+% for texture in textures:
+[ext_resource path="res://assets/sprites/${texture.folder}/${texture.name}.png" type="Texture" id=${texture.id}]
 % endfor
 
-% for id, atlas in enumerate(atlases, 1):
-[sub_resource type="AtlasTexture" id=${id}]
-flags = 16
-atlas = ExtResource( ${atlas.atlas} )
+% for atlas in atlases:
+[sub_resource type="AtlasTexture" id=${atlas.id}]
+atlas = ExtResource(${atlas.texture})
 region = ${atlas.region}
 
 % endfor
-<%
-    sub = lambda x: f'SubResource( {x} )'
-    for sprite in sprites:
-        sprite.frames = ', '.join(map(sub, sprite.frames))
-%>
 [resource]
-animations = [ {
-% for id, sprite in enumerate(sprites, 1):
-    "frames": [ ${sprite.frames} ],
-    "loop": ${sprite.loop}
-    "name": ${sprite.name}
-    "speed": ${sprite.speed}
-    % if (id != len(sprites)):
-    }, {
-    % else:
-    } ]
-    % endif
+animations = [{
+% for i, animation in enumerate(animations, 1):
+"frames": [{
+% for j, frame in enumerate(animation.frames, 1):
+"duration": ${frame.duration},
+"texture": SubResource(${frame.texture})
+% if j != len(animation.frames):
+}, {
+% else:
+}],
+% endif
+% endfor
+"loop": ${str(animation.loop).lower()}
+"name": &"${animation.name}"
+"speed": ${animation.speed}
+% if i != len(animations):
+}, {
+% else:
+}]
+% endif
 % endfor
