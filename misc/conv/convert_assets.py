@@ -7,12 +7,7 @@ from convert_trileset import main as convert_trileset
 from convert_text import main as convert_text
 
 
-OVERRIDE_CONVERTED = True
-
-
 def is_converted(path: Path, suffix: str) -> bool:
-    if OVERRIDE_CONVERTED:
-        return False
     return path.with_suffix(suffix).exists()
 
 
