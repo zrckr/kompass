@@ -1,8 +1,8 @@
-import math
 import click
 import logging
 import mako.template
 
+from math import ceil
 from pathlib import Path
 from common import Rect2, Vector2, read_xml_file, to_snake_case, generate_scene_unique_id
 from dataclasses import asdict, dataclass, field
@@ -77,7 +77,8 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
             target.frames.append(rect)
 
     def parse_xbox(xml, target):
-        offset_y = 0
+        origin_x = ceil(abs(target.size.x - target.actualSize.x) / 2.0)
+        origin_y = abs(target.size.y - target.actualSize.y)
         
         if type(xml.Frames.Frame) is not list:
             xml.Frames.Frame = [xml.Frames.Frame]
@@ -87,14 +88,13 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
             target.durations.append(duration)
             
             rect = Rect2(
-                x = 0,
-                y = int(offset_y),
-                w = int(target.size.x),
-                h = int(target.size.y)
-            )
+                x = int(origin_x),
+                y = int(origin_y),
+                w = int(target.actualSize.x),
+                h = int(target.actualSize.y))
 
             target.frames.append(rect)
-            offset_y += target.size.y
+            origin_y += target.size.y
 
 
     anim_texture = AnimatedTexturePC()
