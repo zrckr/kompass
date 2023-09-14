@@ -58,7 +58,7 @@ def process_trilesets(root: Path):
 def process_character_animations(root: Path):
     character_animations = root / Path('character animations')
     for character in character_animations.iterdir():
-        for animation in character.glob('*.xml'):
+        for animation in character.glob('**/*.xml'):
             if is_converted(animation, '.tres'):
                 continue
             
