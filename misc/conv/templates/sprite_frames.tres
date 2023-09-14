@@ -23,8 +23,8 @@ animations = [{
 }],
 % endif
 % endfor
-"loop": ${str(animation.loop).lower()}
-"name": &"${animation.name}"
+"loop": ${str(animation.loop).lower()},
+"name": &"${animation.name}",
 "speed": ${animation.speed}
 % if i != len(animations):
 }, {
