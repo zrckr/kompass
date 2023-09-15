@@ -1,0 +1,16 @@
+[gd_resource type="AnimationLibrary" load_steps=6 format=3 uid="uid://1w6xwn1mbakq"]
+
+[ext_resource type="Animation" path="res://characters/gomez/idle/idle_look_around.tres" id="1_5wj62"]
+[ext_resource type="Animation" path="res://characters/gomez/idle/idle_play.tres" id="2_5nopn"]
+[ext_resource type="Animation" path="res://characters/gomez/idle/idle_sleep.tres" id="3_rereo"]
+[ext_resource type="Animation" path="res://characters/gomez/idle/idle_wink.tres" id="4_wsjxb"]
+[ext_resource type="Animation" path="res://characters/gomez/idle/idle_yawn.tres" id="5_21nwq"]
+
+[resource]
+_data = {
+"look_around": ExtResource("1_5wj62"),
+"play": ExtResource("2_5nopn"),
+"sleep": ExtResource("3_rereo"),
+"wink": ExtResource("4_wsjxb"),
+"yawn": ExtResource("5_21nwq")
+}

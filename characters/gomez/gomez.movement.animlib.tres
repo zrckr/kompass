@@ -1,0 +1,22 @@
+[gd_resource type="AnimationLibrary" load_steps=9 format=3 uid="uid://b64w87f3uhrqr"]
+
+[ext_resource type="Animation" path="res://characters/gomez/walk_run/run.tres" id="1_io7aa"]
+[ext_resource type="Animation" path="res://characters/gomez/walk_run/walk.tres" id="2_dg5m5"]
+[ext_resource type="Animation" uid="uid://bkue0ydk3hfh6" path="res://characters/gomez/walk_run/run_switch.tres" id="3_gk125"]
+[ext_resource type="Animation" path="res://characters/gomez/teeter/teeter.tres" id="4_bxx0t"]
+[ext_resource type="Animation" path="res://characters/gomez/teeter/teeter_paul.tres" id="5_7folx"]
+[ext_resource type="Animation" uid="uid://bsugxdrs1bttx" path="res://characters/gomez/jump/fall.tres" id="6_t7e4x"]
+[ext_resource type="Animation" uid="uid://b3mw7fwjjrdg5" path="res://characters/gomez/jump/jump.tres" id="7_sia2g"]
+[ext_resource type="Animation" path="res://characters/gomez/jump/land.tres" id="8_2go7w"]
+
+[resource]
+_data = {
+"fall": ExtResource("6_t7e4x"),
+"jump": ExtResource("7_sia2g"),
+"land": ExtResource("8_2go7w"),
+"run": ExtResource("1_io7aa"),
+"run_switch": ExtResource("3_gk125"),
+"teeter": ExtResource("4_bxx0t"),
+"teeter_paul": ExtResource("5_7folx"),
+"walk": ExtResource("2_dg5m5")
+}

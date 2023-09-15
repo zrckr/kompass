@@ -1,0 +1,14 @@
+[gd_resource type="AnimationLibrary" load_steps=5 format=3 uid="uid://rypvn2ufwop7"]
+
+[ext_resource type="Animation" path="res://characters/gomez/look/look_down.tres" id="1_wbwv7"]
+[ext_resource type="Animation" path="res://characters/gomez/look/look_left.tres" id="2_0ee4n"]
+[ext_resource type="Animation" path="res://characters/gomez/look/look_right.tres" id="3_dvjl5"]
+[ext_resource type="Animation" path="res://characters/gomez/look/look_up.tres" id="4_nefe5"]
+
+[resource]
+_data = {
+"down": ExtResource("1_wbwv7"),
+"left": ExtResource("2_0ee4n"),
+"right": ExtResource("3_dvjl5"),
+"up": ExtResource("4_nefe5")
+}

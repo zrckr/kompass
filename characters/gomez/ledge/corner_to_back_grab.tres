@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://dr8oj70j1aoru" path="res://characters/gomez/ledge/corner_to_back_grab.png" id="1_u3i5u"]
+
+[resource]
+resource_name = "corner_to_back_grab"
+length = 0.500
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PoolRealArray(1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(6, 13, 21, 19), Rect2i(6, 45, 21, 19), Rect2i(6, 77, 21, 19), Rect2i(6, 109, 21, 19), Rect2i(6, 141, 21, 19)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_u3i5u")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

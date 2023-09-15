@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://7oqq25k0wkc1" path="res://characters/gomez/look/look_left.png" id="1_dvu50"]
+
+[resource]
+resource_name = "look_left"
+length = 1.200
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.1, 0.2, 0.3, 0.4, 0.9, 1.0, 1.1),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(7, 11, 19, 21), Rect2i(7, 43, 19, 21), Rect2i(7, 75, 19, 21), Rect2i(7, 107, 19, 21), Rect2i(7, 139, 19, 21), Rect2i(7, 171, 19, 21), Rect2i(7, 203, 19, 21), Rect2i(7, 235, 19, 21)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_dvu50")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

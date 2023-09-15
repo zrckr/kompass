@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://xgkan8qecaru" path="res://characters/gomez/death/sucked_in.png" id="1_wwcx5"]
+
+[resource]
+resource_name = "sucked_in"
+length = 1.790
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.16, 0.29, 0.42, 0.55, 0.68, 0.81, 0.94, 1.02, 1.13, 1.23, 1.36, 1.46),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(0, 11, 16, 21), Rect2i(0, 43, 16, 21), Rect2i(0, 75, 16, 21), Rect2i(0, 107, 16, 21), Rect2i(0, 139, 16, 21), Rect2i(0, 171, 16, 21), Rect2i(0, 203, 16, 21), Rect2i(0, 235, 16, 21), Rect2i(0, 267, 16, 21), Rect2i(0, 299, 16, 21), Rect2i(0, 331, 16, 21), Rect2i(0, 363, 16, 21), Rect2i(0, 395, 16, 21)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_wwcx5")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

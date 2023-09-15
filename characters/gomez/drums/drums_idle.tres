@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://cjv8j65dqqb2g" path="res://characters/gomez/drums/drums_idle.png" id="1_u2p8m"]
+
+[resource]
+resource_name = "drums_idle"
+length = 5.360
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 1.0, 1.12, 2.12, 2.24, 2.6, 2.72, 2.84, 2.96, 3.08, 3.44, 3.56, 4.56, 4.68, 4.88, 5.0, 5.12, 5.24),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(9, 8, 46, 24), Rect2i(9, 40, 46, 24), Rect2i(9, 72, 46, 24), Rect2i(9, 104, 46, 24), Rect2i(9, 136, 46, 24), Rect2i(9, 168, 46, 24), Rect2i(9, 200, 46, 24), Rect2i(9, 232, 46, 24), Rect2i(9, 264, 46, 24), Rect2i(9, 296, 46, 24), Rect2i(9, 328, 46, 24), Rect2i(9, 360, 46, 24), Rect2i(9, 392, 46, 24), Rect2i(9, 424, 46, 24), Rect2i(9, 456, 46, 24), Rect2i(9, 488, 46, 24), Rect2i(9, 520, 46, 24), Rect2i(9, 552, 46, 24)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_u2p8m")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://bp7dghxx8klmw" path="res://characters/gomez/idle/idle_sleep.png" id="1_inqd8"]
+
+[resource]
+resource_name = "idle_sleep"
+length = 8.920
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.12, 0.24, 0.36, 0.48, 0.6, 0.72, 0.84, 0.96, 1.08, 1.24, 1.4, 1.56, 1.72, 1.88, 2.04, 2.2, 2.36, 2.52, 2.68, 2.84, 3.0, 3.16, 3.32, 3.48, 3.64, 3.8, 3.96, 4.12, 4.28, 4.44, 4.6, 4.76, 4.92, 5.08, 5.24, 5.4, 5.56, 5.72, 5.88, 6.04, 6.2, 6.36, 6.52, 6.68, 6.84, 7.0, 7.16, 7.32, 7.48, 7.64, 7.8, 7.96, 8.08, 8.2, 8.32, 8.44, 8.56, 8.68, 8.8),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(7, 12, 19, 20), Rect2i(7, 44, 19, 20), Rect2i(7, 76, 19, 20), Rect2i(7, 108, 19, 20), Rect2i(7, 140, 19, 20), Rect2i(7, 172, 19, 20), Rect2i(7, 204, 19, 20), Rect2i(7, 236, 19, 20), Rect2i(7, 268, 19, 20), Rect2i(7, 300, 19, 20), Rect2i(7, 332, 19, 20), Rect2i(7, 364, 19, 20), Rect2i(7, 396, 19, 20), Rect2i(7, 428, 19, 20), Rect2i(7, 460, 19, 20), Rect2i(7, 492, 19, 20), Rect2i(7, 524, 19, 20), Rect2i(7, 556, 19, 20), Rect2i(7, 588, 19, 20), Rect2i(7, 620, 19, 20), Rect2i(7, 652, 19, 20), Rect2i(7, 684, 19, 20), Rect2i(7, 716, 19, 20), Rect2i(7, 748, 19, 20), Rect2i(7, 780, 19, 20), Rect2i(7, 812, 19, 20), Rect2i(7, 844, 19, 20), Rect2i(7, 876, 19, 20), Rect2i(7, 908, 19, 20), Rect2i(7, 940, 19, 20), Rect2i(7, 972, 19, 20), Rect2i(7, 1004, 19, 20), Rect2i(7, 1036, 19, 20), Rect2i(7, 1068, 19, 20), Rect2i(7, 1100, 19, 20), Rect2i(7, 1132, 19, 20), Rect2i(7, 1164, 19, 20), Rect2i(7, 1196, 19, 20), Rect2i(7, 1228, 19, 20), Rect2i(7, 1260, 19, 20), Rect2i(7, 1292, 19, 20), Rect2i(7, 1324, 19, 20), Rect2i(7, 1356, 19, 20), Rect2i(7, 1388, 19, 20), Rect2i(7, 1420, 19, 20), Rect2i(7, 1452, 19, 20), Rect2i(7, 1484, 19, 20), Rect2i(7, 1516, 19, 20), Rect2i(7, 1548, 19, 20), Rect2i(7, 1580, 19, 20), Rect2i(7, 1612, 19, 20), Rect2i(7, 1644, 19, 20), Rect2i(7, 1676, 19, 20), Rect2i(7, 1708, 19, 20), Rect2i(7, 1740, 19, 20), Rect2i(7, 1772, 19, 20), Rect2i(7, 1804, 19, 20), Rect2i(7, 1836, 19, 20), Rect2i(7, 1868, 19, 20), Rect2i(7, 1900, 19, 20)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_inqd8")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://scwc74ac0cug" path="res://characters/gomez/interactions/open_treasure.png" id="1_gum6s"]
+
+[resource]
+resource_name = "open_treasure"
+length = 6.770
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.07, 0.14, 0.21, 0.28, 0.35, 0.42, 0.49, 0.56, 0.63, 0.7, 0.77, 0.84, 0.91, 1.01, 1.76, 2.01, 2.26, 2.51, 2.76, 3.26, 3.76, 4.01, 4.11, 4.17, 4.23, 4.29, 4.35, 4.41, 4.47, 4.53, 4.59, 4.65, 4.71, 4.77, 4.83, 4.89, 4.95, 6.45, 6.51, 6.57, 6.63, 6.7),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(1, 10, 15, 22), Rect2i(1, 42, 15, 22), Rect2i(1, 74, 15, 22), Rect2i(1, 106, 15, 22), Rect2i(1, 138, 15, 22), Rect2i(1, 170, 15, 22), Rect2i(1, 202, 15, 22), Rect2i(1, 234, 15, 22), Rect2i(1, 266, 15, 22), Rect2i(1, 298, 15, 22), Rect2i(1, 330, 15, 22), Rect2i(1, 362, 15, 22), Rect2i(1, 394, 15, 22), Rect2i(1, 426, 15, 22), Rect2i(1, 458, 15, 22), Rect2i(1, 490, 15, 22), Rect2i(1, 522, 15, 22), Rect2i(1, 554, 15, 22), Rect2i(1, 586, 15, 22), Rect2i(1, 618, 15, 22), Rect2i(1, 650, 15, 22), Rect2i(1, 682, 15, 22), Rect2i(1, 714, 15, 22), Rect2i(1, 746, 15, 22), Rect2i(1, 778, 15, 22), Rect2i(1, 810, 15, 22), Rect2i(1, 842, 15, 22), Rect2i(1, 874, 15, 22), Rect2i(1, 906, 15, 22), Rect2i(1, 938, 15, 22), Rect2i(1, 970, 15, 22), Rect2i(1, 1002, 15, 22), Rect2i(1, 1034, 15, 22), Rect2i(1, 1066, 15, 22), Rect2i(1, 1098, 15, 22), Rect2i(1, 1130, 15, 22), Rect2i(1, 1162, 15, 22), Rect2i(1, 1194, 15, 22), Rect2i(1, 1226, 15, 22), Rect2i(1, 1258, 15, 22), Rect2i(1, 1290, 15, 22), Rect2i(1, 1322, 15, 22), Rect2i(1, 1354, 15, 22)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_gum6s")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

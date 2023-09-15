@@ -18,6 +18,12 @@ config/icon="res://icon.png"
 
 project/assembly_name="Kompass"
 
+[importer_defaults]
+
+texture={
+"detect_3d/compress_to": 0
+}
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

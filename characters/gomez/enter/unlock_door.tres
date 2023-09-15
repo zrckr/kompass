@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://bumsna7u2j8eb" path="res://characters/gomez/enter/unlock_door.png" id="1_v75b8"]
+
+[resource]
+resource_name = "unlock_door"
+length = 2.680
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.58),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(1, 12, 15, 20), Rect2i(1, 44, 15, 20), Rect2i(1, 76, 15, 20), Rect2i(1, 108, 15, 20), Rect2i(1, 140, 15, 20), Rect2i(1, 172, 15, 20), Rect2i(1, 204, 15, 20), Rect2i(1, 236, 15, 20), Rect2i(1, 268, 15, 20), Rect2i(1, 300, 15, 20), Rect2i(1, 332, 15, 20), Rect2i(1, 364, 15, 20), Rect2i(1, 396, 15, 20), Rect2i(1, 428, 15, 20), Rect2i(1, 460, 15, 20), Rect2i(1, 492, 15, 20), Rect2i(1, 524, 15, 20), Rect2i(1, 556, 15, 20), Rect2i(1, 588, 15, 20), Rect2i(1, 620, 15, 20), Rect2i(1, 652, 15, 20), Rect2i(1, 684, 15, 20), Rect2i(1, 716, 15, 20), Rect2i(1, 748, 15, 20), Rect2i(1, 780, 15, 20), Rect2i(1, 812, 15, 20), Rect2i(1, 844, 15, 20)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_v75b8")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

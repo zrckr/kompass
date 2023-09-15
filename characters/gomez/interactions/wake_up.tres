@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://ds0x5ex46nea2" path="res://characters/gomez/interactions/wake_up.png" id="1_73iie"]
+
+[resource]
+resource_name = "wake_up"
+length = 2.240
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 1.0, 1.13, 1.26, 1.32, 1.45, 1.58, 1.68, 1.81, 1.91, 2.01, 2.11),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(7, 12, 18, 20), Rect2i(7, 44, 18, 20), Rect2i(7, 76, 18, 20), Rect2i(7, 108, 18, 20), Rect2i(7, 140, 18, 20), Rect2i(7, 172, 18, 20), Rect2i(7, 204, 18, 20), Rect2i(7, 236, 18, 20), Rect2i(7, 268, 18, 20), Rect2i(7, 300, 18, 20), Rect2i(7, 332, 18, 20), Rect2i(7, 364, 18, 20)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_73iie")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}

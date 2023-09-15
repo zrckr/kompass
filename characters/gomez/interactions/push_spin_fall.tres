@@ -1,0 +1,43 @@
+[gd_resource type="Animation" load_steps=2 format=3]
+
+[ext_resource type="Texture" uid="uid://dtg0hcqck4tgj" path="res://characters/gomez/interactions/push_spin_fall.png" id="1_1ipoj"]
+
+[resource]
+resource_name = "push_spin_fall"
+length = 2.590
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(0.0, 0.07, 0.14, 0.21, 0.28, 0.35, 0.42, 0.49, 0.56, 0.63, 0.7, 0.77, 0.84, 0.91, 0.98, 1.05, 1.12, 1.19, 1.26, 1.33, 1.4, 1.47, 1.54, 1.61, 1.68, 1.75, 1.82, 1.89, 1.96, 2.03, 2.1, 2.17, 2.24, 2.31, 2.38, 2.45, 2.52),
+"transitions": PoolRealArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2i(2, 12, 13, 20), Rect2i(2, 44, 13, 20), Rect2i(2, 76, 13, 20), Rect2i(2, 108, 13, 20), Rect2i(2, 140, 13, 20), Rect2i(2, 172, 13, 20), Rect2i(2, 204, 13, 20), Rect2i(2, 236, 13, 20), Rect2i(2, 268, 13, 20), Rect2i(2, 300, 13, 20), Rect2i(2, 332, 13, 20), Rect2i(2, 364, 13, 20), Rect2i(2, 396, 13, 20), Rect2i(2, 428, 13, 20), Rect2i(2, 460, 13, 20), Rect2i(2, 492, 13, 20), Rect2i(2, 524, 13, 20), Rect2i(2, 556, 13, 20), Rect2i(2, 588, 13, 20), Rect2i(2, 620, 13, 20), Rect2i(2, 652, 13, 20), Rect2i(2, 684, 13, 20), Rect2i(2, 716, 13, 20), Rect2i(2, 748, 13, 20), Rect2i(2, 780, 13, 20), Rect2i(2, 812, 13, 20), Rect2i(2, 844, 13, 20), Rect2i(2, 876, 13, 20), Rect2i(2, 908, 13, 20), Rect2i(2, 940, 13, 20), Rect2i(2, 972, 13, 20), Rect2i(2, 1004, 13, 20), Rect2i(2, 1036, 13, 20), Rect2i(2, 1068, 13, 20), Rect2i(2, 1100, 13, 20), Rect2i(2, 1132, 13, 20), Rect2i(2, 1164, 13, 20)]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [ExtResource("1_1ipoj")]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray(0),
+"transitions": PoolRealArray(1),
+"update": 1,
+"values": [Vector2(0, 2)]
+}
