@@ -1,0 +1,2012 @@
+[gd_scene load_steps=286 format=3 uid="uid://bx0h1nrhcrfqk"]
+
+[ext_resource type="PackedScene" uid="uid://dvi05crdqo6xr" path="res://meshes/industrial/industrial.gltf" id="1_l5w14"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yr73g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jfcps"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f6ix0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ci615"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cs00m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nurh6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5svl8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6x6mh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u3bli"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bynmt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ilquf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lr3qb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3rn5t"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_utdv1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_376lf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_blltt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sq4mq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pvg6h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bdus8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mxf6g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w3drf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_amnx4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7ipy3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_maf3a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m73ag"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xiu10"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g60el"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3qeiq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dcvg6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vqkkn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ejcxs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_84qhg"]
+size = Vector3(1, 0.75, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b6rfr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a66gs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_22t82"]
+size = Vector3(1, 0.5, 0.875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_biivh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8eph6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dp5sq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wioer"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mf6ut"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_imx88"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8cobh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m4ckp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rxax0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u07bl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_15htl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ya782"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2jt21"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fmm6h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g31lr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_77uve"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bxl7d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7g1d2"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ic2hw"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5eftp"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3bdxv"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b7r7v"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_c5chp"]
+size = Vector3(1, 1, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yqefx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iegjp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y1y0o"]
+size = Vector3(1, 0.5, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tprc5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x1pl7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_swykq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7gkkt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qiwuy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g3y7q"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y2xq0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1qfwx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rkrfr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u1dgm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gx4rw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3govf"]
+size = Vector3(0.875, 0.875, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ea32i"]
+size = Vector3(1, 0.875, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3wssl"]
+size = Vector3(1, 0.75, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k4kpp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o05xt"]
+size = Vector3(0.125, 0.75, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y7tfw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yip4s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wc63p"]
+size = Vector3(1, 0.75, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vif2k"]
+size = Vector3(0.875, 0.75, 0.875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_snjel"]
+size = Vector3(1, 0.875, 0.75)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h1d65"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_aoflg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_enp74"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_adiqe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hxwxx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4u1pt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pxn60"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gk7ac"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_70wes"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mywe0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kfi8q"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8b2a5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xd2e0"]
+size = Vector3(1, 0.5, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_il7i7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yn8se"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3h5a5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mwimk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iqrl7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dcoy4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w5hli"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_51r0i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1ktd2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kid3h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4nie7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_txstk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uo3c5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_316x5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_skkx6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fii00"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iu31o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fc5mq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qsnky"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d1xqk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0xn78"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6uc7i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_33wbk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_am2nm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qck86"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k0875"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_85imp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cwam5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mm84m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4s417"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y4rkm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dxc8m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_717bs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_24nb0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_br672"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_awk6u"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_met0p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_70352"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_l56tn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jfqf5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_npp4v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i1uox"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wvv0j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vfngc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5a61r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_me6p8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_drhwn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p62fn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4uvui"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u67s5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fumag"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_l3e7d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2wm0a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f87iy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8sk4x"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1w5tw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pqv7l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0dhfq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7cj76"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h5tq0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e8sqr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ucbir"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_c2fhe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_of5wp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mieoa"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rhq08"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d74f1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wsqj0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j5pfb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gnclb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g5x5x"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bw4ul"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4d5ks"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5di1a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m8316"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rvtph"]
+size = Vector3(0.25, 1, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0w5gt"]
+size = Vector3(0.25, 1, 0.25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jwpym"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3hf3h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qu42l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vqdhl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pqh2g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qahoo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6kryv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m6kcu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_10761"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_if1ud"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j78sp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jqdc7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w351e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ymg50"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kaqqu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kkvrk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t4as7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uvbdw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_81axi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m0645"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m3wtm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mmbga"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2qs30"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dvpt5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6fyyr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qh6pb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gdyi4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dbl3e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cwhan"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pcew8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y78eq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ghewc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6keg7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h32qw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fxmco"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7d544"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b14sn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p12ag"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8x8fk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qsit4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gyelm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f8tob"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_flm1l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3u55p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_plwx7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6w6lm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jmsvc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vfpgl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ccopf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x6pin"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5geia"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pr3dd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7i6if"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_srpf1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uv488"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6x2ch"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cxdkw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cah0i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4o6dy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_28t82"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kkxon"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nprif"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hswns"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_17ajb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r2kut"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rpym2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rioyx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bex1w"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o0dsv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1wp3h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mojg0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m0803"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6tvr3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4o6t7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wf6ds"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1vfe4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lmwb0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oepfh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nsylr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ov2r6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pu1q1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eud75"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_swlj0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_am61l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vcaiq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_se3ql"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_788e2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oxkki"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q52ho"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0hwj8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_huai0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e0b23"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s224r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6rq8x"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a3wid"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k3v1s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dquqc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_03dm5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_maydd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lak81"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eo2tx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2bmqr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wb4of"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ko4f7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ydoh2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a7ilh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p0wmw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sm1en"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kpvp8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v2pps"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d1868"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3jdjk"]
+
+[node name="Industrial" instance=ExtResource("1_l5w14")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_yr73g")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_jfcps")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_f6ix0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ci615")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_cs00m")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_nurh6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_5svl8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GIRDERS 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GIRDERS 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6x6mh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_u3bli")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_bynmt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ilquf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_lr3qb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3rn5t")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_utdv1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_376lf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_blltt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICKS 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICKS 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_sq4mq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 17" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 17/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pvg6h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 11" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 11/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_bdus8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 13" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 13/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mxf6g")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 14" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 14/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_w3drf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 15" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 15/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_amnx4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7ipy3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_maf3a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m73ag")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_xiu10")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_g60el")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3qeiq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dcvg6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vqkkn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL A 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL A 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ejcxs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ladder Bottom B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ladder Bottom B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_84qhg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ladder Bottom A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ladder Bottom A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_b6rfr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ladder Middle" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ladder Middle/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_a66gs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ladder Top" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ladder Top/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_22t82")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Support" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Support/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_biivh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Shrooms A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Shrooms A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_8eph6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Fence Ds" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Fence Ds/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dp5sq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Grass" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Grass/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wioer")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Chain Up" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Chain Up/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mf6ut")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Chain" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Chain/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_imx88")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Small Golden Cube" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Small Golden Cube/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_8cobh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Shrooms Red" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Shrooms Red/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m4ckp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Roots A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roots A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rxax0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Roots C" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roots C/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_u07bl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Roots B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roots B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_15htl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Rocks B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Rocks B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ya782")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Rocks A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Rocks A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_2jt21")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Locked Door B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Locked Door B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_fmm6h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Locked Door" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Locked Door/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_g31lr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Key" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Key/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_77uve")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="HOLE" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HOLE/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_bxl7d")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES D" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES D/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7g1d2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES C" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES C/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ic2hw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_5eftp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3bdxv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES F" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES F/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_b7r7v")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VINES E" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VINES E/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_c5chp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Collision All" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Collision All/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_yqefx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Collision None" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Collision None/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_iegjp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Collision Top" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Collision Top/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_y1y0o")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU DOOR B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU DOOR B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_tprc5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU DOOR A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU DOOR A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_x1pl7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Og" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Og/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_swykq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="O" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="O/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7gkkt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Omds" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Omds/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qiwuy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Om" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Om/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_g3y7q")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Odds" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Odds/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_y2xq0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Od" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Od/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_1qfwx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pipe 07" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pipe 07/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rkrfr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pipe 05" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pipe 05/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_u1dgm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pipe 01" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pipe 01/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_gx4rw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe H" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe H/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3govf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe G" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe G/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ea32i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe F" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe F/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3wssl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe E" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe E/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_k4kpp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe D" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe D/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_o05xt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe C" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe C/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_y7tfw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_yip4s")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wc63p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe I" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe I/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vif2k")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bigpipe K" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bigpipe K/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_snjel")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRACK PLATFORM 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRACK PLATFORM 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_h1d65")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRACK PLATFORM 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRACK PLATFORM 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_aoflg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRACK PLATFORM 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRACK PLATFORM 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_enp74")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL RUST 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL RUST 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_adiqe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL RUST 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL RUST 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_hxwxx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL RUST 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL RUST 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4u1pt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL RUST 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL RUST 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pxn60")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GRASS 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GRASS 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_gk7ac")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GRASS 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GRASS 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_70wes")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GRASS 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GRASS 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mywe0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GRASS 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GRASS 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kfi8q")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST GRASS 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST GRASS 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_8b2a5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BRICK S" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BRICK S/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_xd2e0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 16" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 16/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_il7i7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 17" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 17/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_yn8se")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 13" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 13/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3h5a5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 14" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 14/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mwimk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 15" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 15/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_iqrl7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 11" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 11/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dcoy4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_w5hli")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_51r0i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_1ktd2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kid3h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4nie7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_txstk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_uo3c5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_316x5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_skkx6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL DARK 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL DARK 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_fii00")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST SUPPORT 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST SUPPORT 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_iu31o")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST SUPPORT 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST SUPPORT 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_fc5mq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST DOOR A 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST DOOR A 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qsnky")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST DOOR A 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST DOOR A 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_d1xqk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 27" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 27/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_0xn78")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 28" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 28/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6uc7i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 29" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 29/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_33wbk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 24" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 24/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_am2nm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 25" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 25/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qck86")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 26" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 26/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_k0875")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 21" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 21/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_85imp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 22" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 22/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_cwam5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 23" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 23/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mm84m")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 19" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 19/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4s417")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 20" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 20/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_y4rkm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 16" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 16/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dxc8m")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 17" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 17/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_717bs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 18" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 18/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_24nb0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 12" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 12/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_br672")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 13" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 13/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_awk6u")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 14" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 14/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_met0p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 15" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 15/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_70352")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_l56tn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_jfqf5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 11" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 11/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_npp4v")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_i1uox")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wvv0j")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vfngc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_5a61r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_me6p8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_drhwn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_p62fn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4uvui")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="COLOR PIPES 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="COLOR PIPES 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_u67s5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="BOLT" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BOLT/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_fumag")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="BOLT DS" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BOLT DS/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_l3e7d")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_2wm0a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_f87iy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_8sk4x")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_1w5tw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pqv7l")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_0dhfq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7cj76")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST BORDER 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST BORDER 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_h5tq0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_e8sqr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ucbir")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_c2fhe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_of5wp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mieoa")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rhq08")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_d74f1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wsqj0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_j5pfb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRIPLE PIPES 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRIPLE PIPES 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_gnclb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRICOLOR DOORS 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRICOLOR DOORS 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_g5x5x")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TRICOLOR DOORS 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TRICOLOR DOORS 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_bw4ul")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4d5ks")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_5di1a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m8316")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rvtph")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_0w5gt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_jwpym")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3hf3h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qu42l")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vqdhl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pqh2g")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qahoo")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6kryv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 29" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 29/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m6kcu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 24" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 24/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_10761")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 25" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 25/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_if1ud")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 26" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 26/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_j78sp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 19" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 19/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_jqdc7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 23" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 23/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_w351e")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 13" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 13/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ymg50")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 14" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 14/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kaqqu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 15" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 15/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kkvrk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 17" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 17/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_t4as7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_uvbdw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_81axi")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 11" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 11/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m0645")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 12" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 12/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m3wtm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mmbga")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_2qs30")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dvpt5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6fyyr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qh6pb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_gdyi4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST METAL BLUE 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST METAL BLUE 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dbl3e")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST SUPPORT BLUE B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST SUPPORT BLUE B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_cwhan")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST SUPPORT BLUE A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST SUPPORT BLUE A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pcew8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="SUPPORT BLUE" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SUPPORT BLUE/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_y78eq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 13" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 13/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ghewc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 11" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 11/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6keg7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUSTRIAL BLUE 12" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUSTRIAL BLUE 12/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_h32qw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 9" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 9/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_fxmco")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 10" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 10/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7d544")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_b14sn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_p12ag")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 8" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 8/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_8x8fk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 3" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 3/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_qsit4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_gyelm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_f8tob")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_flm1l")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3u55p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST CAVE PIPES 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST CAVE PIPES 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_plwx7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Gd" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Gd/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6w6lm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Gdds" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Gdds/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_jmsvc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Gm" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Gm/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vfpgl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Gmds" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Gmds/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ccopf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="G" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="G/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_x6pin")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Gg" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Gg/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_5geia")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MECH PIVOT A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MECH PIVOT A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pr3dd")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MECH PIVOT B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MECH PIVOT B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_7i6if")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="PURPLE SUPPORT PLAIN" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PURPLE SUPPORT PLAIN/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_srpf1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ONE SIDE COLLISION" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ONE SIDE COLLISION/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_uv488")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 7" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 7/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6x2ch")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 2/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_cxdkw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 4" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 4/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_cah0i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 5" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 5/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4o6dy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 6" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 6/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_28t82")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kkxon")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INT WALL 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INT WALL 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_nprif")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ANTI CUBE" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ANTI CUBE/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_hswns")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 01" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 01/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_17ajb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 02" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 02/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_r2kut")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 03" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 03/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rpym2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 04" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 04/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_rioyx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 05" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 05/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_bex1w")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 06" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 06/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_o0dsv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 07" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 07/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_1wp3h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 08" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 08/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_mojg0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 09" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 09/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_m0803")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 010" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 010/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6tvr3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 011" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 011/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_4o6t7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 012" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 012/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wf6ds")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 013" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 013/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_1vfe4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 014" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 014/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_lmwb0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 015" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 015/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_oepfh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 016" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 016/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_nsylr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 017" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 017/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ov2r6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 018" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 018/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_pu1q1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 019" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 019/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_eud75")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 020" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 020/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_swlj0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 021" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 021/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_am61l")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 022" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 022/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_vcaiq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 023" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 023/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_se3ql")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 024" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 024/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_788e2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 025" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 025/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_oxkki")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 026" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 026/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_q52ho")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 027" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 027/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_0hwj8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 028" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 028/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_huai0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 029" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 029/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_e0b23")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 030" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 030/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_s224r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 031" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 031/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_6rq8x")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 032" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 032/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_a3wid")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 033" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 033/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_k3v1s")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 034" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 034/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_dquqc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 035" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 035/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_03dm5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 036" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 036/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_maydd")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 038" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 038/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_lak81")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 039" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 039/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_eo2tx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 040" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 040/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_2bmqr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 041" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 041/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_wb4of")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 042" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 042/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ko4f7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 043" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 043/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_ydoh2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ZU 045" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZU 045/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_a7ilh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VILLAGE DOORS 0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VILLAGE DOORS 0/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_p0wmw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VILLAGE DOORS 1" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VILLAGE DOORS 1/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_sm1en")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="INDUST SUPPORT BLUE C" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="INDUST SUPPORT BLUE C/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_kpvp8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NEW CUBE" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NEW CUBE/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_v2pps")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="PIER B" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PIER B/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_d1868")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="PIER A" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PIER A/StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_3jdjk")
