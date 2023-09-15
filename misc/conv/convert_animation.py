@@ -69,6 +69,9 @@ def parse_anim_from_xml(xml: SimpleNamespace) -> AnimatedTexturePC:
             float(getattr(xml, '@actualHeight')))
     
     def parse_pc(xml, target):
+        if type(xml.Frames.FramePC) is not list:
+            xml.Frames.FramePC = [xml.Frames.FramePC]
+
         for frame in xml.Frames.FramePC:
             duration = int(getattr(frame, '@duration'))
             target.durations.append(duration)
