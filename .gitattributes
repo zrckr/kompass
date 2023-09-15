@@ -1,2 +1,13 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+# Engine assets
+*.mesh binary
+*.meshlib binary
+*.res binary
+*.scn binary
+
+# Game assets
+*.gltf binary
+*.ogg binary
+*.png binary
