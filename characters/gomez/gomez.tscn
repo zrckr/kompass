@@ -52,7 +52,9 @@ _data = {
 "RESET": SubResource("Animation_7or33")
 }
 
-[node name="Gomez" type="CharacterBody3D"]
+[node name="Gomez" type="CharacterBody3D" groups=["player"]]
+collision_layer = 0
+collision_mask = 126
 
 [node name="Collision" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_1q1pn")

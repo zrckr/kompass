@@ -14,6 +14,10 @@ config/name="Kompass"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.png"
 
+[autoload]
+
+Game="*res://autoload/game.gd"
+
 [dotnet]
 
 project/assembly_name="Kompass"
@@ -23,6 +27,16 @@ project/assembly_name="Kompass"
 texture={
 "detect_3d/compress_to": 0
 }
+
+[layer_names]
+
+3d_physics/layer_1="NONE"
+3d_physics/layer_2="FACE_TOP"
+3d_physics/layer_3="FACE_BOTTOM"
+3d_physics/layer_4="FACE_LEFT"
+3d_physics/layer_5="FACE_RIGHT"
+3d_physics/layer_6="FACE_FRONT"
+3d_physics/layer_7="FACE_BACK"
 
 [rendering]
 
