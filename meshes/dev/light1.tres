@@ -1,0 +1,11 @@
+[gd_resource type="BoxMesh" load_steps=3 format=3 uid="uid://buaf1emwexun1"]
+
+[ext_resource type="Texture2D" uid="uid://c8hajjwmrav4k" path="res://meshes/dev/light1.png" id="1_16s6r"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_05d6e"]
+albedo_texture = ExtResource("1_16s6r")
+uv1_scale = Vector3(3, 2, 1)
+texture_filter = 0
+
+[resource]
+material = SubResource("StandardMaterial3D_05d6e")
