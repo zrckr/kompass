@@ -6,6 +6,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://rypvn2ufwop7" path="res://characters/gomez/gomez.look.animib.tres" id="3_grc2j"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1q1pn"]
+size = Vector3(0.625, 1, 0.5)
 
 [sub_resource type="Animation" id="Animation_7or33"]
 resource_name = "RESET"
@@ -57,9 +58,11 @@ collision_layer = 0
 collision_mask = 126
 
 [node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09375, 0.5, 0)
 shape = SubResource("BoxShape3D_1q1pn")
 
 [node name="Sprite" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 offset = Vector2(0, 2)
 pixel_size = 0.0625
 billboard = 2
